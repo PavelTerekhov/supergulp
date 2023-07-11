@@ -1,7 +1,6 @@
 {
   "name": "supergulp",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "dev": "gulp dev",
@@ -17,10 +16,20 @@
     "@babel/preset-env": "^7.22.7",
     "@babel/register": "^7.22.5",
     "@types/node": "^20.4.1",
-    "browser-sync": "^2.29.3",
     "del": "^7.0.0",
     "gulp-image": "^6.3.1",
     "gulp-pug": "^5.0.0",
-    "gulp-webserver": "^0.9.1"
-  }
+    "gulp-sass": "^5.1.0",
+    "gulp-webserver": "^0.9.1",
+    "node-sass": "^9.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PavelTerekhov/supergulp.git"
+  },
+  "bugs": {
+    "url": "https://github.com/PavelTerekhov/supergulp/issues"
+  },
+  "homepage": "https://github.com/PavelTerekhov/supergulp#readme",
+  "description": ""
 }
